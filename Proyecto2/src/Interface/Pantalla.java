@@ -6,10 +6,10 @@ import java.awt.*;
 
 public class Pantalla {
     Color Fondo = new Color(30,60,90);
-    int sizeX = 800;
-    int sizeY = 600;
+    int sizeX = 1280;
+    int sizeY = 720;
     String title = "";
-    JFrame window;
+    public JFrame window;
 
     public Pantalla() {
     }
@@ -28,13 +28,20 @@ public class Pantalla {
     }
 
     public void init(){
-        JFrame Window = new JFrame(title);
-        Window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        Window.setSize(this.sizeX,this.sizeY);
-        Window.setVisible(true);
-        Container c = Window.getContentPane();
+        window = new JFrame(title);
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setSize(this.sizeX,this.sizeY);
+        window.setVisible(true);
+        Container c = window.getContentPane();
         c.setBackground(this.Fondo);
-        this.window = Window;
+    }
+
+    public void withdraw(){
+        window.setVisible(false);
+    }
+
+    public void show(){
+        window.setVisible(true);
     }
 
 }
