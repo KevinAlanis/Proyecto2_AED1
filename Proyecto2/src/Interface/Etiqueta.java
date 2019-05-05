@@ -29,6 +29,6 @@ public class Etiqueta {
         L1.setFont(new Font("Impact", 1, 40));
         L1.setForeground(Color.WHITE);
         L1.setBackground(this.Fondo);
-        this.Window.window.add(L1);
+        this.Window.add(L1);
     }
 }
