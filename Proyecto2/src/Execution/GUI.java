@@ -93,6 +93,9 @@ public class GUI extends JFrame implements ActionListener {
                 System.out.println("____________________________");
             }
             P1.dispose();
+            nameEsquema = "";
+            atributos.clear();
+            tiposAtributos.clear();
         }
 
         else if(e.getSource() == column){

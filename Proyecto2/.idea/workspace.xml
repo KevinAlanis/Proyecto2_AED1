@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0c9f5c0-6de5-4ffc-9f29-34fc6d90b9a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Interface/ComboBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interface/Tabla.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progra2/Execution/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progra2/Execution/GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progra2/Interface/Etiqueta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progra2/Interface/Etiqueta.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Execution/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Execution/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface/Etiqueta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface/Etiqueta.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,13 +26,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Execution/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="77" column="47" lean-forward="true" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+            <state relative-caret-position="325">
+              <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1671#1714#1" />
-                <element signature="e#2031#2273#1" />
-                <element signature="e#1768#1814#1" />
                 <element signature="e#1870#1932#1" />
               </folding>
             </state>
@@ -203,7 +196,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557192380748" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557192832754" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -248,7 +241,7 @@
       <workItem from="1556763514835" duration="4089000" />
       <workItem from="1557022383371" duration="9945000" />
       <workItem from="1557094898553" duration="59000" />
-      <workItem from="1557101941776" duration="18577000" />
+      <workItem from="1557101941776" duration="19086000" />
     </task>
     <task id="LOCAL-00001" summary="Eliminacion de archivos innecesarios y cambio en la logica de la interfaz. Métodos añadidos a clase GUI">
       <created>1556767303605</created>
@@ -264,11 +257,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557034792631</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Avance de pantalla de registro y añadidas distintas clases nuevas de creación de interfaz">
+      <created>1557192512693</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557192512693</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50305000" />
+    <option name="totallyTimeSpent" value="50814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1368" y="-8" width="1376" height="744" extended-state="6" />
@@ -312,7 +312,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Eliminacion de archivos innecesarios y cambio en la logica de la interfaz. Métodos añadidos a clase GUI" />
     <MESSAGE value="Creacion de clases y modificacion en anteriores existentes, definicion básica de la estructura inicial que tendra la pantalla principal." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creacion de clases y modificacion en anteriores existentes, definicion básica de la estructura inicial que tendra la pantalla principal." />
+    <MESSAGE value="Avance de pantalla de registro y añadidas distintas clases nuevas de creación de interfaz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avance de pantalla de registro y añadidas distintas clases nuevas de creación de interfaz" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Interface/Button.java" />
@@ -404,13 +405,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Execution/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="77" column="47" lean-forward="true" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+        <state relative-caret-position="325">
+          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1671#1714#1" />
-            <element signature="e#2031#2273#1" />
-            <element signature="e#1768#1814#1" />
             <element signature="e#1870#1932#1" />
           </folding>
         </state>
