@@ -71,8 +71,20 @@ public class Cliente implements Serializable {
         String jsonString=TestObjectToJson.jsonhacer();
 
 
+
         salida = new ObjectOutputStream(cliente.getOutputStream());
         salida.writeObject(jsonString);
+        salida.flush();
+
+
+
+    }
+
+
+    public static void enviarDatos(String mensaje) throws IOException {
+
+        salida = new ObjectOutputStream(cliente.getOutputStream());
+        salida.writeObject(mensaje);
         salida.flush();
 
 

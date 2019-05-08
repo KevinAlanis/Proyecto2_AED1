@@ -1,7 +1,7 @@
 package Estructuras;
 
 
-public class ListaEnlazada<T extends Comparable> {
+public class ListaEnlazada<T> {
 
     private NodeLista first,tail;
 
@@ -13,19 +13,19 @@ public class ListaEnlazada<T extends Comparable> {
         return first == null;
     }
 
-    public void addToTail(T data) {
+    public void addToTail(T data,T nombreNodo) {
         if (!isEmpty()) {
-            tail.next = new NodeLista(data);
+            tail.next = new NodeLista(data,nombreNodo);
             tail = tail.next;
         }
-        else first = tail = new NodeLista(data);
+        else first = tail = new NodeLista(data,nombreNodo);
     }
 
     public void printAll() {
         for (NodeLista tmp = first;
              tmp != null;
              tmp = tmp.next)
-            System.out.print(tmp.data + " ");
+            System.out.print(" "+tmp.nombreNodo + " " + tmp.data+ " ");
     }
 
     public void delete(T el) {
@@ -50,21 +50,21 @@ public class ListaEnlazada<T extends Comparable> {
 
     public static void main(String[] args){
         ListaEnlazada l =new ListaEnlazada();
-        l.addToTail("aDA");
-        l.addToTail("aDA1");
-        l.addToTail("aDA2");
-        l.addToTail("aDA3");
+        l.addToTail("Mate,324",1);
+        l.addToTail("Fisica,633",2);
+        l.addToTail("aDA2",3);
+        l.addToTail("aDA3",4);
         l.printAll();
         l.delete("aDA2");
         System.out.println(" ");
         l.printAll();
         System.out.println(" ");
-        System.out.println("Encontrado "+l.find("aDA1").toString());
+        System.out.println("Encontrado "+l.find(2).toString());
     }
 
     public T find(T value) {
         NodeLista tmp = first;
-        for ( ; tmp != null && !value.equals(tmp.data);
+        for ( ; tmp != null && !value.equals(tmp.nombreNodo);
               tmp = tmp.next);
         if (tmp == null) {
             return null;
@@ -79,23 +79,25 @@ public class ListaEnlazada<T extends Comparable> {
 
 
 
-class NodeLista<T extends Comparable> {
+class NodeLista<T> {
 
 
 
     public T data;
 
     public NodeLista next;
+    public T nombreNodo;
 
 
 
-    public NodeLista(T data) {
-        this(data,null);
+    public NodeLista(T data,T nombreNodo) {
+        this(data,nombreNodo,null);
     }
 
-    public NodeLista(T data, NodeLista n) {
+    public NodeLista(T data,T nombreNodo, NodeLista n) {
         this.next=n;
         this.data = data;
+        this.nombreNodo=nombreNodo;
 
     }
 

@@ -2,12 +2,20 @@ package Execution;
 
 import Interface.*;
 import Interface.Canvas;
+import ServerCliente.Cliente;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.util.LinkedList;
+
+import static ServerCliente.Cliente.enviarDatos;
+
 
 public class GUI extends JFrame implements ActionListener {
     Color Azul = new Color(30,60,90);
@@ -80,6 +88,9 @@ public class GUI extends JFrame implements ActionListener {
         }
 
         else if(e.getSource() == register){
+            JsonObject jsonObject=new JsonObject();
+            JsonObject esquemajson =new  JsonObject();
+            JsonObject tipoesquema =new JsonObject();
             this.nameEsquema = esquema.getText();
             JOptionPane.showMessageDialog(null,"Esquema registrado.");
             System.out.println("_______Título:_______");
@@ -87,10 +98,20 @@ public class GUI extends JFrame implements ActionListener {
             System.out.println("_____________________");
             System.out.println("______Columnas:______");
             for(int i = 0; i<atributos.size(); i++){
+
                 System.out.println(atributos.get(i));
                 System.out.println("Tipo:");
                 System.out.println(tiposAtributos.get(i));
                 System.out.println("____________________________");
+                jsonObject.addProperty(atributos.get(i).toString(),tiposAtributos.get(i).toString());
+                esquemajson.add(esquema.getText(),jsonObject);
+            }
+            tipoesquema.add("modo1",esquemajson);
+            System.out.println(tipoesquema.toString());
+            try {
+                enviarDatos(tipoesquema.toString());
+            } catch (IOException e1) {
+                e1.printStackTrace();
             }
             P1.dispose();
             nameEsquema = "";
