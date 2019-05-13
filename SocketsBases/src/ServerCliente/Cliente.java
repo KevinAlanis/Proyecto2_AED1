@@ -45,8 +45,36 @@ public class Cliente implements Serializable {
                 }
             }
         });
+
+        Button b1=new Button("Enviar json1");
+        b1.setBounds(200,0,200,200);
+        b1.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+                System.out.println("Enviar mensaje");
+                try {
+                    enviarjson1();
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                }
+            }
+        });
+
+        Button b2=new Button("Enviar json2");
+        b2.setBounds(400,0,200,200);
+        b2.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+                System.out.println("Enviar mensaje");
+                try {
+                    enviarjson2();
+                } catch (IOException e1) {
+                    e1.printStackTrace();
+                }
+            }
+        });
         f.add(b);
-        f.setSize(200,200);
+        f.add(b1);
+        f.add(b2);
+        f.setSize(600,200);
         f.setLayout(null);
         f.setVisible(true);
 
@@ -66,6 +94,28 @@ public class Cliente implements Serializable {
 
 
     }
+
+    private static void enviarjson1() throws IOException {
+        JsonObject jsonObject= new JsonObject();
+        jsonObject.addProperty("modo4","persona");
+        salida = new ObjectOutputStream(cliente.getOutputStream());
+        salida.writeObject(jsonObject.toString());
+        salida.flush();
+    }
+
+    private static void enviarjson2() throws IOException {
+        JsonObject jsonObject1= new JsonObject();
+        JsonObject jsonObject2= new JsonObject();
+        jsonObject1.addProperty("persona","123456");
+        jsonObject2.add("modo5",jsonObject1);
+
+        salida = new ObjectOutputStream(cliente.getOutputStream());
+        salida.writeObject(jsonObject2.toString());
+        salida.flush();
+
+
+    }
+
 
     private static void enviarDatos() throws IOException {
         String jsonString=TestObjectToJson.jsonhacer();

@@ -2,9 +2,6 @@ package Execution;
 
 import Interface.*;
 import Interface.Canvas;
-import ServerCliente.Cliente;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
 import javax.swing.*;
@@ -30,7 +27,7 @@ public class GUI extends JFrame implements ActionListener {
 
     Pantalla Window = new Pantalla(1280, 720, Celeste , "Base de Datos");
 
-    Boton AñadirEsquema, B2, register, closeRegister, enviar;
+    Boton AnadirEsquema, B2, register, closeRegister, enviar;
     PantallaExtra P1;
     Etiqueta Register, L1;
     JTextField esquema, column;
@@ -54,13 +51,13 @@ public class GUI extends JFrame implements ActionListener {
     }
 
     public void iniciaComps(){
-        AñadirEsquema = new Boton("Añadir nuevo esquema", 10, 10, 200, 40);
-        AñadirEsquema.setFont(new Font("Times New Roman", 0, 15));
-        AñadirEsquema.setBackground(Azul);
-        AñadirEsquema.setForeground(Blanco);
-        AñadirEsquema.setBorderPainted(false);
-        AñadirEsquema.addActionListener(this);
-        Window.add(AñadirEsquema);
+        AnadirEsquema = new Boton("A�adir nuevo esquema", 10, 10, 200, 40);
+        AnadirEsquema.setFont(new Font("Times New Roman", 0, 15));
+        AnadirEsquema.setBackground(Azul);
+        AnadirEsquema.setForeground(Blanco);
+        AnadirEsquema.setBorderPainted(false);
+        AnadirEsquema.addActionListener(this);
+        Window.add(AnadirEsquema);
 
         enviar = new Boton("Enviar", 80, 80, 100, 40);
         enviar.setFont(new Font("Times New Roman", 0, 15));
@@ -74,9 +71,9 @@ public class GUI extends JFrame implements ActionListener {
         Window.add(C1);
     }
 
-    //ACÁ SE COLOCAN LAS ACCIONES DE CADA BOTÓN
+    //ACA SE COLOCAN LAS ACCIONES DE CADA BOT�N
     public void actionPerformed(ActionEvent e){
-        if(e.getSource() == AñadirEsquema){
+        if(e.getSource() == AnadirEsquema){
             PantallaRegistro();
         }
 
@@ -93,7 +90,7 @@ public class GUI extends JFrame implements ActionListener {
             JsonObject tipoesquema =new JsonObject();
             this.nameEsquema = esquema.getText();
             JOptionPane.showMessageDialog(null,"Esquema registrado.");
-            System.out.println("_______Título:_______");
+            System.out.println("_______T�tulo:_______");
             System.out.println(nameEsquema);
             System.out.println("_____________________");
             System.out.println("______Columnas:______");
@@ -120,7 +117,7 @@ public class GUI extends JFrame implements ActionListener {
         }
 
         else if(e.getSource() == column){
-            JOptionPane.showMessageDialog(null,"Columna " + column.getText() + " de tipo " + combo.getSelectedItem() + " añadida, si desea añadir otra escribala y seleccione el tipo, sino, presione registrar para finalizar el proceso.");
+            JOptionPane.showMessageDialog(null,"Columna " + column.getText() + " de tipo " + combo.getSelectedItem() + " a�adida, si desea a�adir otra escribala y seleccione el tipo, sino, presione registrar para finalizar el proceso.");
             atributos.add(column.getText());
             tiposAtributos.add(combo.getSelectedItem());
             column.setText("");

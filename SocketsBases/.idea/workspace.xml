@@ -40,27 +40,6 @@
       <change afterPath="$PROJECT_DIR$/../WORDMAKERFINAL/src/Servidor/ThreadEnvia.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WORDMAKERFINAL/src/sample/PropertiesFile.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WORDMAKERFINAL/src/sample/Telefono.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/src/inmemDB/Common/Communication/RequestPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/src/inmemDB/Common/Communication/ResponsePackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/src/inmemDB/Common/Communication/SocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/src/inmemDB/Common/Database/DatabaseMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/src/inmemDB/Common/Database/DbInstructionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/src/inmemDB/Common/Database/Scheme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/src/inmemDB/Common/Database/SchemeData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/src/inmemDB/Common/Database/SchemeDataDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/src/inmemDB/Common/Database/SchemeDataRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/src/inmemDB/Common/Database/SchemeDataType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/src/inmemDB/Common/Database/SchemeDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/src/inmemDB/Common/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/src/inmemDB/Common/Utils/ListT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/inmemDB.Common/src/inmemDB/Common/Utils/NodeT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/lib/jackson-core-2.9.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../inmemDB/inmemDB/lib/jackson-databind-2.9.0.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,56 +50,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ServerCliente/Servidor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="887">
-              <caret line="104" column="14" lean-forward="true" selection-start-line="104" selection-start-column="14" selection-end-line="105" selection-end-column="62" />
+            <state relative-caret-position="442">
+              <caret line="283" column="25" selection-start-line="283" selection-start-column="25" selection-end-line="283" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2063#2071#0" expanded="true" />
-                <element signature="e#2577#2585#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EndGame/Esquema.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding>
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EndGame/ListaEnlazadaCompleta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Json/CreacionJson.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -128,8 +65,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Execution/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="97" column="56" lean-forward="true" selection-start-line="97" selection-start-column="56" selection-end-line="97" selection-end-column="56" />
+            <state relative-caret-position="725">
+              <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Execution/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Estructuras/ListaEnlazada.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+            <state relative-caret-position="442">
+              <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
               <folding>
                 <element signature="e#117#118#0" expanded="true" />
                 <element signature="e#148#149#0" expanded="true" />
@@ -151,31 +100,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/java/jdk-10.0.2/lib/src.zip!/java.base/java/net/SocketInputStream.java">
+        <entry file="file://$PROJECT_DIR$/src/EndGame/Esquema.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="209" selection-start-line="209" selection-end-line="209" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Execution/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="119">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/EndGame/DatosEsquema.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Json/TestObjectToJson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="187">
+              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Json/CreacionJson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -183,8 +142,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ServerCliente/Cliente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="-118">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
             </state>
           </provider>
         </entry>
@@ -195,6 +154,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -225,10 +185,18 @@
         <option value="$PROJECT_DIR$/src/Estructuras/BTreeNode.java" />
         <option value="$PROJECT_DIR$/src/EndGame/Esquema.java" />
         <option value="$PROJECT_DIR$/src/Execution/GUI.java" />
+        <option value="$PROJECT_DIR$/src/EndGame/AtrinutosEsquema.java" />
+        <option value="$PROJECT_DIR$/src/EndGame/ListaEnlazadaCompleta.java" />
+        <option value="$PROJECT_DIR$/src/EndGame/Global.java" />
+        <option value="$PROJECT_DIR$/src/Json/Pruebajson.java" />
+        <option value="$PROJECT_DIR$/src/EndGame/AtributosEsquema.java" />
+        <option value="$PROJECT_DIR$/src/EndGame/ListaEnlazadaDatos.java" />
+        <option value="$PROJECT_DIR$/src/EndGame/DatosEsquema.java" />
+        <option value="$PROJECT_DIR$/src/Json/TestObjectToJson.java" />
+        <option value="$PROJECT_DIR$/src/ServerCliente/valoresaceptados.java" />
+        <option value="$PROJECT_DIR$/src/ServerCliente/Cliente.java" />
         <option value="$PROJECT_DIR$/src/Estructuras/ListaEnlazada.java" />
         <option value="$PROJECT_DIR$/src/ServerCliente/Servidor.java" />
-        <option value="$PROJECT_DIR$/src/ServerCliente/Cliente.java" />
-        <option value="$PROJECT_DIR$/src/Json/TestObjectToJson.java" />
       </list>
     </option>
   </component>
@@ -244,7 +212,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -304,13 +271,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557307616434" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../inmemDB" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557776460547" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proyectto" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -330,20 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Cliente">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Estructuras.BinaryTree" />
-      <module name="Progra2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Estructuras.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ServerCliente.Cliente" />
       <module name="Progra2" />
@@ -357,12 +312,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Global" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EndGame.Global" />
+      <module name="Progra2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EndGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListaEnlazada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Estructuras.ListaEnlazada" />
       <module name="Progra2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Estructuras.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pruebajson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Json.Pruebajson" />
+      <module name="Progra2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,10 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Cliente" />
         <item itemvalue="Application.Servidor" />
+        <item itemvalue="Application.Cliente" />
         <item itemvalue="Application.ListaEnlazada" />
-        <item itemvalue="Application.BinaryTree" />
+        <item itemvalue="Application.Pruebajson" />
+        <item itemvalue="Application.Global" />
       </list>
     </recent_temporary>
   </component>
@@ -448,9 +430,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1130064" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12260128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -460,7 +441,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.283857" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -601,64 +582,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Json/Carro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/java/jdk-10.0.2/lib/src.zip!/java.base/java/net/SocketInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="3043">
           <caret line="209" selection-start-line="209" selection-end-line="209" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Execution/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/EndGame/ListaEnlazadaDatos.java" />
+    <entry file="file://$PROJECT_DIR$/src/Json/Pruebajson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EndGame/Global.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EndGame/Esquema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Execution/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="97" column="56" lean-forward="true" selection-start-line="97" selection-start-column="56" selection-end-line="97" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EndGame/ListaEnlazadaCompleta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EndGame/Esquema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EndGame/DatosEsquema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Execution/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Estructuras/ListaEnlazada.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+        <state relative-caret-position="442">
+          <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
           <folding>
             <element signature="e#117#118#0" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
@@ -666,36 +667,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerCliente/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Json/CreacionJson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="341">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServerCliente/Servidor.java">
+    <entry file="file://$PROJECT_DIR$/src/ServerCliente/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="887">
-          <caret line="104" column="14" lean-forward="true" selection-start-line="104" selection-start-column="14" selection-end-line="105" selection-end-column="62" />
+        <state relative-caret-position="-118">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerCliente/valoresaceptados.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Execution/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2063#2071#0" expanded="true" />
-            <element signature="e#2577#2585#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Json/TestObjectToJson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="187">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServerCliente/Servidor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="283" column="25" selection-start-line="283" selection-start-column="25" selection-end-line="283" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

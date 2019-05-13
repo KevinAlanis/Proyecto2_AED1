@@ -1,4 +1,9 @@
 package EndGame;
 
-public class ListaEnlazadaCompleta {
+
+public class ListaEnlazadaCompleta<T> {
+
+
 }
+
+

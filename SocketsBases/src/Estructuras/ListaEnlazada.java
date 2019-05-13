@@ -25,19 +25,19 @@ public class ListaEnlazada<T> {
         for (NodeLista tmp = first;
              tmp != null;
              tmp = tmp.next)
-            System.out.print(" "+tmp.nombreNodo + " " + tmp.data+ " ");
+            System.out.println(" "+tmp.nombreNodo + " " + tmp.data+ " ");
     }
 
     public void delete(T el) {
         if (!isEmpty())
-            if (first == tail && el == first.data)
+            if (first == tail && el == first.nombreNodo)
                 first = tail = null;
-            else if (el == first.data)
+            else if (el == first.nombreNodo)
                 first = first.next;
             else {
                 NodeLista pred, tmp;
                 for (pred = first, tmp = first.next;
-                     tmp != null && tmp.data != el;
+                     tmp != null && tmp.nombreNodo != el;
                      pred = pred.next, tmp = tmp.next);
                 if (tmp != null) {
                     pred.next = tmp.next; if (tmp == tail)
@@ -47,15 +47,43 @@ public class ListaEnlazada<T> {
 
             }}
 
+            public int size(){
+                int tamanio=0;
+                for (NodeLista tmp = first; tmp != null; tmp = tmp.next)
+                {
+                    tamanio=tamanio+1;
+                }
+
+                return tamanio;
+            }
+
+            public Object recorrernombre(int posicion){
+                NodeLista tmp = first;
+                for (int i=0;i<posicion;i++) {
+                    tmp = tmp.next;
+                }
+                return tmp.nombreNodo;
+
+            }
+
+
+
+
+
 
     public static void main(String[] args){
         ListaEnlazada l =new ListaEnlazada();
-        l.addToTail("Mate,324",1);
-        l.addToTail("Fisica,633",2);
-        l.addToTail("aDA2",3);
-        l.addToTail("aDA3",4);
+        l.addToTail("Mate,324","adf");
+        l.addToTail("Fisica,633","bsfd");
+        l.addToTail("aDA2","cgf");
+        l.addToTail("aDA3","hgf");
+        System.out.println(l.recorrernombre(0));
+        l.recorrernombre(1);
+        l.recorrernombre(2);
+        l.recorrernombre(3);
+        System.out.println(l.size());
         l.printAll();
-        l.delete("aDA2");
+        l.delete("cgf");
         System.out.println(" ");
         l.printAll();
         System.out.println(" ");
